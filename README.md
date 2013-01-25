@@ -1,0 +1,1 @@
+The other site that the company runs that I'm responsible for. There's no proprietary information here - just a flat website that I'm pretty sure is broken, messy and terrible in a lot of ways, and it's my ongoing responsibility to clean up the codebase, add pages, improve SEO, and more - incrementally.
