@@ -1,0 +1,23 @@
+.ig-gallery.ig-type-thumbnails.ig-effect-polaroid .ig-thumb {
+   border: 1px solid #eeeeee;
+}
+
+.ig-gallery.ig-type-slideshow.ig-effect-polaroid .ig-img img {
+   border: 1px solid #eeeeee;
+}
+
+.ig-gallery.ig-type-slider.ig-effect-polaroid .ig-img img {
+   border: 1px solid #eeeeee;
+}
+
+.ig-gallery.ig-type-filmstrip.ig-effect-polaroid .ig-img img {
+   border: 1px solid #eeeeee;
+}
+
+.ig-gallery.ig-type-mosaic.ig-effect-polaroid .ig-img img {
+   border: 1px solid #eeeeee;
+}
+
+.ig-type-slider .ig-mask {
+   position: relative;
+}

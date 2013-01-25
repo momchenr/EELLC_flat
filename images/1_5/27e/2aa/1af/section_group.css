@@ -1,0 +1,240 @@
+/* Common */
+.sectionIcon { position: absolute; }
+.secTitle, .secTitle a { cursor: pointer; outline: none; }
+.sgHC0 .sk-obj-placeholder {
+   width: 10px;
+   height: 30px;
+}
+.sgHT0 .sk-obj-placeholder {
+   width: 10px;
+   height: 30px;
+}
+
+.sgHT0 .sk-obj-preview {
+   line-height: 30px;
+}
+
+.secBody .sk-obj-placeholder,
+.secBody .sk-obj-placeholder {
+   width: 100%;
+   height: 10px;
+}
+
+.sgVT0.sg-inspect-hidden tr.noactive,
+.sgHT0.sg-inspect-hidden tr.noactive {
+   display: block;
+   overflow: hidden;
+   height: 0;
+}
+
+.sgVT0.sg-inspect-hidden .tabContentHolder div.noactive,
+.sgHT0.sg-inspect-hidden .tabContentHolder div.noactive {
+   display: block;
+}
+
+
+
+
+/* revert cursor to default when no link */
+
+.sgHC0 .nolink .secTitle, 
+.sgHC0 .nolink .secTitle a {
+	cursor: default;
+}
+
+.sgVC0 .nolink .secTitle, 
+.sgVC0 .nolink .secTitle a {
+	cursor: default;
+}
+
+.sgHT0 .active .secTitle, 
+.sgHT0 .active .secTitle a {
+	cursor: default;
+}
+
+.sgVT0 .active .secTitle, 
+.sgVT0 .active .secTitle a {
+	cursor: default;
+}
+
+.sgVCC0.sgAccordion .active .secTitle, 
+.sgVCC0.sgAccordion .active .secTitle a {
+	cursor: default;
+}
+
+
+
+
+
+/* ==== New layout ==== */
+
+
+/* icon visibility sections and tabs */
+
+.wIcn.noactive .fmIcnNor { display: inline; }
+.wIcn.noactive .fmIcnSel,
+.wIcn.noactive .fmIcnCur { display: none; }	
+
+.wIcn.noactive .secCptn:hover .fmIcnSel { display: inline; }
+.wIcn.noactive .secCptn:hover .fmIcnNor,
+.wIcn.noactive .secCptn:hover .fmIcnCur { display: none; }	
+
+.wIcn.active .fmIcnCur { display: inline; }	
+.wIcn.active .fmIcnNor,
+.wIcn.active .fmIcnSel { display: none; }
+
+
+/* icon visibility classic columns and vertical */
+
+.sgHC0 .wIcn.active .fmIcnNor { display: inline; }
+.sgHC0 .wIcn.active .fmIcnSel,
+.sgHC0 .wIcn.active .fmIcnCur { display: none; }	
+
+.sgHC0 .wIcn.active .secCptn:hover .haslink .fmIcnSel { display: inline; }
+.sgHC0 .wIcn.active .secCptn:hover .fmIcnNor,
+.sgHC0 .wIcn.active .secCptn:hover .fmIcnCur { display: none; }	
+
+.sgHC0 .wIcn.active.haslink .secCptn:hover .fmIcnSel { display: inline; }
+.sgHC0 .wIcn.active.haslink .secCptn:hover .fmIcnNor,
+.sgHC0 .wIcn.active.haslink .secCptn:hover .fmIcnCur { display: none; }	
+
+.sgHC0 .wIcn.active.nolink .secCptn:hover .fmIcnNor { display: inline; }
+.sgHC0 .wIcn.active.nolink .secCptn:hover .fmIcnSel,
+.sgHC0 .wIcn.active.nolink .secCptn:hover .fmIcnCur { display: none; }	
+
+.sgVC0 .wIcn.active .fmIcnNor { display: inline; }
+.sgVC0 .wIcn.active .fmIcnSel,
+.sgVC0 .wIcn.active .fmIcnCur { display: none; }	
+
+.sgVC0 .wIcn.active.haslink .secCptn:hover .fmIcnSel { display: inline; }
+.sgVC0 .wIcn.active.haslink .secCptn:hover .fmIcnNor,
+.sgVC0 .wIcn.active.haslink .secCptn:hover .fmIcnCur { display: none; }
+
+.sgVC0 .wIcn.active.nolink .secCptn:hover .fmIcnNor { display: inline; }
+.sgVC0 .wIcn.active.nolink .secCptn:hover .fmIcnSel,
+.sgVC0 .wIcn.active.nolink .secCptn:hover .fmIcnCur { display: none; }
+
+.sgVCC0 .wIcn.active .fmIcnCur { display: inline; }
+.sgVCC0 .wIcn.active .fmIcnSel,
+.sgVCC0 .wIcn.active .fmIcnNor { display: none; }	
+
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnSel { display: inline; }
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnNor,
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnCur { display: none; }
+
+.sgVCC0.sgAccordion .wIcn.active .fmIcnCur { display: inline; }
+.sgVCC0.sgAccordion .wIcn.active .fmIcnSel,
+.sgVCC0.sgAccordion .wIcn.active .fmIcnNor { display: none; }	
+
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnCur { display: inline; }
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnNor,
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnSel { display: none; }
+
+
+/* ==== Default layout ==== */
+
+/* icon visibility classic columns and vertical */
+
+.sgHC0 .active .imgCollapsed { display: inline; }
+.sgHC0 .active .imgRollovered,
+.sgHC0 .active .imgExpanded { display: none; }	
+
+.sgHC0 .active.nolink .secCptn:hover .imgCollapsed  { display: inline; }	
+.sgHC0 .active.nolink .secCptn:hover .imgExpanded,
+.sgHC0 .active.nolink .secCptn:hover .imgRollovered { display: none; }
+
+.sgHC0 .active.haslink .secCptn:hover .imgCollapsed,
+.sgHC0 .active.haslink .secCptn:hover .imgExpanded   { display: none; }	
+.sgHC0 .active.haslink .secCptn:hover .imgRollovered { display: inline; }
+
+
+.sgVC0 .active .imgCollapsed { display: inline; }
+.sgVC0 .active .imgRollovered,
+.sgVC0 .active .imgExpanded { display: none; }	
+
+.sgVC0 .active.nolink .secCptn:hover .imgCollapsed  { display: inline; }	
+.sgVC0 .active.nolink .secCptn:hover .imgExpanded,
+.sgVC0 .active.nolink .secCptn:hover .imgRollovered { display: none; }
+
+.sgVC0 .active.haslink .secCptn:hover .imgCollapsed,
+.sgVC0 .active.haslink .secCptn:hover .imgExpanded   { display: none; }	
+.sgVC0 .active.haslink .secCptn:hover .imgRollovered { display: inline; }
+
+
+.sgVCC0 .active .imgExpanded { display: inline; }
+.sgVCC0 .active .imgRollovered,
+.sgVCC0 .active .imgCollapsed { display: none; }	
+
+.sgVCC0 .active .secCptn:hover .imgRollovered { display: inline; }
+.sgVCC0 .active .secCptn:hover .imgExpanded,
+.sgVCC0 .active .secCptn:hover .imgCollapsed { display: none; }	
+    
+.sgVCC0 .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgVCC0 .noactive .secCptn:hover .imgCollapsed,
+.sgVCC0 .noactive .secCptn:hover .imgExpanded { display: none; }
+
+.sgVCC0 .noactive .imgCollapsed { display: inline; }
+.sgVCC0 .noactive .imgRollovered,
+.sgVCC0 .noactive .imgExpanded { display: none; }	
+
+.sgVCC0 .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgVCC0 .noactive .secCptn:hover .imgCollapsed,
+.sgVCC0 .noactive .secCptn:hover .imgExpanded { display: none; }
+
+
+.sgVCC0.sgAccordion .active .imgExpanded { display: inline; }
+.sgVCC0.sgAccordion .active .imgRollovered,
+.sgVCC0.sgAccordion .active .imgCollapsed { display: none; }	
+      
+.sgVCC0.sgAccordion .active .secCptn:hover .imgExpanded { display: inline; }
+.sgVCC0.sgAccordion .active .secCptn:hover .imgRollovered,
+.sgVCC0.sgAccordion .active .secCptn:hover .imgCollapsed { display: none; }	
+      
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgCollapsed,
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgExpanded { display: none; }
+      
+.sgVCC0.sgAccordion .noactive .imgCollapsed { display: inline; }
+.sgVCC0.sgAccordion .noactive .imgRollovered,
+.sgVCC0.sgAccordion .noactive .imgExpanded { display: none; }	
+      
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgCollapsed,
+.sgVCC0.sgAccordion .noactive .secCptn:hover .imgExpanded { display: none; }
+
+
+/* Horizontal/vertical tabbed legacy dom */
+.sgHT0 .active .imgCollapsed,
+.sgHT0 .active .imgRollovered { display: none; }
+.sgHT0 .active .imgExpanded { display: inline; }	
+    
+.sgHT0 .active .secCptn:hover .imgExpanded { display: inline; }
+.sgHT0 .active .secCptn:hover .imgCollapsed,
+.sgHT0 .active .secCptn:hover .imgRollovered { display: none; }	
+
+.sgHT0 .noactive .imgCollapsed { display: inline; }
+.sgHT0 .noactive .imgRollovered,
+.sgHT0 .noactive .imgExpanded { display: none; }	
+        
+.sgHT0 .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgHT0 .noactive .secCptn:hover .imgCollapsed,
+.sgHT0 .noactive .secCptn:hover .imgExpanded { display: none; }	
+
+.sgVT0 .active .imgCollapsed,
+.sgVT0 .active .imgRollovered { display: none; }
+.sgVT0 .active .imgExpanded { display: inline; }	
+   
+.sgVT0 .active .secCptn:hover .imgExpanded { display: inline; }
+.sgVT0 .active .secCptn:hover .imgCollapsed,
+.sgVT0 .active .secCptn:hover .imgRollovered { display: none; }	
+   
+.sgVT0 .noactive .imgCollapsed { display: inline; }
+.sgVT0 .noactive .imgRollovered,
+.sgVT0 .noactive .imgExpanded { display: none; }	
+       
+.sgVT0 .noactive .secCptn:hover .imgRollovered { display: inline; }
+.sgVT0 .noactive .secCptn:hover .imgCollapsed,
+.sgVT0 .noactive .secCptn:hover .imgExpanded { display: none; }	
+
+
+

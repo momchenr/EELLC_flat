@@ -1,0 +1,166 @@
+P {
+   margin:0in;
+}
+DIV {
+   margin:0in;
+}
+
+ol.alphalist {
+   list-style-type: lower-alpha;
+}
+ol.ualphalist {
+   list-style-type: upper-alpha;
+}
+
+ol {
+   margin-top:0in;
+   margin-bottom:0in;
+   margin-right:0in;
+   text-decoration:none;
+   font-weight:normal;
+   font-style:normal;
+
+}
+
+ul {
+   list-style-type:disc;
+   margin-top:0in;
+   margin-bottom:0in;
+   margin-left:0.2in;
+   margin-right:0in;
+   padding:0in;
+   text-decoration:none;
+   font-weight:normal;
+   font-style:normal;
+
+}
+
+ul ol {
+   list-style-image: none;
+}
+
+li, table, tr, tbody, thead {
+   text-decoration:none;
+   font-weight:normal;
+   font-style:normal;
+}
+
+blockquote {
+   margin-top:0in;
+   margin-bottom:0in;
+}
+
+.clearformat, .plain, .plainsmall, .plainlarge,  .alert, .plainfixedwidth {
+   text-decoration:none;
+   font-weight:normal;
+   font-style:normal;
+}
+
+a.plain, a.plainsmall, a.plainlarge, a.plainfixedwidth {
+   font-weight:normal;
+   font-style:normal;
+}
+
+a.heading1, a.heading2 {
+   font-style:normal;
+}
+
+.heading1, .heading2 {
+   font-style:normal;
+   text-decoration:none;
+}
+
+a.alert:link,a.alert:visited
+{
+   text-decoration:underline;
+}
+
+a.alert:hover {
+   text-decoration:none;
+}
+.SystemAlertPlaceholder {
+   position: absolute;
+   width: 420px;
+   z-index: 1000;
+   left: 50%;
+   top: 0px;
+   margin-left: -210px;
+   font-family: Arial, Verdana, Helvetica, Courier, Times New Roman;
+}
+
+.SystemAlertPlaceholder .content {
+   width: 420px;
+   background-color: #6A6D6A;
+   background-repeat: repeat-x;
+   background-position: top;
+   background-image: url( ../../../../../img.nccdn.net/Shared/Images/sys_alert_top.gif );
+}
+
+.SystemAlertPlaceholder .content .text {
+   padding: 20px;
+}
+
+.SystemAlertPlaceholder .content .break {
+   clear:both;
+   float: none;
+   display: block;
+   margin-top: 20px;
+}
+
+.SystemAlertPlaceholder .bm {
+   padding: 0px;
+   width: 400px;
+   height: 10px;
+   font-size: 1px;
+   background-color: #6A6D6A;
+   float: left;
+   display: block;
+}
+
+.SystemAlertPlaceholder .bl {
+   padding: 0px;
+   width: 10px;
+   height: 10px;
+   background-repeat: no-repeat;
+   background-image: url( ../../../../../img.nccdn.net/Shared/Images/sys_alert_corner_bl.gif );
+   float: left;
+   display: block;
+}
+
+.SystemAlertPlaceholder .br {
+   padding: 0px;
+   width: 10px;
+   height: 10px;
+   background-repeat: no-repeat;
+   background-image: url( ../../../../../img.nccdn.net/Shared/Images/sys_alert_corner_br.gif );
+   float: left;
+   display: block;
+}
+
+.SystemAlertPlaceholder .heading1 {
+   float: none;
+   clear: both;
+   display: block;
+   margin-bottom: 5px;
+   font-size: 18px;
+}
+
+.SystemAlertPlaceholder .heading1,
+.SystemAlertPlaceholder .plain {
+   color: #FFFFFF;
+   font-family: Arial, Verdana, Helvetica, Courier, Times New Roman;
+   font-weight: normal;
+   line-height: 2em;
+}
+.SystemAlertPlaceholder .plain {
+   color: #FFFFFF;
+   font-size: 12px;
+}
+
+.SystemAlertPlaceholder a:link,
+.SystemAlertPlaceholder a:hover,
+.SystemAlertPlaceholder a:visited {
+   color: #ffc43c;
+   font-size: 14px;
+   text-decoration: underline;
+}
